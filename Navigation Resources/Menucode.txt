@@ -1,0 +1,12 @@
+<!-- Nav Button (3 Lines) -->
+  <div class="nav-button">
+    <img src="menu-icon.jpg" alt="menu-button" class="menu">
+  </div>
+  
+  <!-- Nav Bar (On the left side) -->
+    <div class="nav-bar" id="bar">
+      <a href="#home" style="margin-top:75px"><i class="fa fa-fw fa-home"></i> Home </a>
+      <a href="#services"><i class="fa fa-fw fa-wrench"></i> About Me </a>
+      <a href="#clients"><i class="fa fa-fw fa-user"> </i> Projects </a>
+      <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Goals </a>
+    </div>
