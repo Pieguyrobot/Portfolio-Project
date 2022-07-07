@@ -1,0 +1,81 @@
+/* Projects Home Section */
+.project-section {
+  padding-top: 340px;
+  padding-bottom: 240px;
+  background-color: #480000;
+  margin-bottom: 0px;
+}
+
+.project-content {
+  margin-top: -275px;
+  padding-top: 167px;
+  padding-bottom: 168px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-hider {
+  z-index: 1;
+  margin-top: 184px;
+  padding-top: 245px;
+  padding-bottom: 225px;
+  width: 100%;
+  position: absolute;
+  top: 565px;
+  left: 0px;
+  text-align: center;
+  font-size: 75px;
+  font-family: gentaxregular;
+  background: rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(8px);
+  transition: 0.3s;
+}
+
+.project-text {
+  margin-top: -30px;
+  margin-left: 0px;
+  transition: 0.3s;
+}
+
+.project-img {
+  width: 190px;
+  float: left;
+  margin-left: 130px;
+  margin-top: -125px;
+}
+
+.project-txt {
+  color: ivory;
+  margin-top: -145px;
+  margin-left: 25px;
+  margin-right: 90px;
+}
+
+.project-desc {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+}
+
+.project-button {
+  color: ivory;
+  background-color: #480000;
+  white-space: nowrap;
+  margin-right: 125px;
+  margin-top: 195px;
+  font-size: 24px;
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 40px;
+  border: solid 2px white
+}
+
+.project-button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}

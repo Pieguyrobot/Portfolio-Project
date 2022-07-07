@@ -1,0 +1,70 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-section {
+  padding-top: 425px;
+  padding-bottom: 325px;
+  background-color: #190000;
+  margin-bottom: 0px;
+}
+
+.section-header-con {
+  margin-top: -375px;
+  margin-left: 125px;
+  text-align: left;
+  font-size: 75px;
+  font-family: gentaxregular;
+}
+
+.profile-header {
+  font-size: 45px;
+  font-family: "Questrial", sans-serif;
+  margin-left: 100px;
+}
+
+/*.profiles {
+  
+}*/
+
+.linkedin {
+  background-color:  #494949;
+  height: 60px;
+  padding: 15px;
+  border: solid 3px white;
+  border-radius: 20px;
+}
+
+.linkedin:hover {
+  background-color:  #0072b1;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.github {
+  background-color:  #494949;
+  height: 60px;
+  padding: 15px;
+  border: solid 3px #cccccc;
+  border-radius: 20px;
+}
+.github:hover {
+  background-color:  #ffffff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.instagram {
+  background-color:  #494949;
+  height: 60px;
+  padding: 15px;
+  border: solid 3px #cccccc;
+  border-radius: 20px;
+}
+
+.instagram:hover {
+  background-color:  #8a3ab9;
+  transition: 0.2s;
+  cursor: pointer;
+}

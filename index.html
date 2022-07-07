@@ -5,10 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title> Personal Portfolio </title>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <link href="Navigation Resources/navigation.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- CSS STYLES -->
+  <link href="CSS-Files + Fonts/first-page.css" rel="stylesheet" type="text/css"/>
+  <link href="CSS-Files + Fonts/Navigation Resources/navigation.css" rel="stylesheet" type="text/css"/>
+  <link href="CSS-Files + Fonts/First Page Sections/about-section.css" rel="stylesheet" type="text/css">
+  <link href="CSS-Files + Fonts/First Page Sections/project-section.css" rel="stylesheet" type="text/css">
+  <link href="CSS-Files + Fonts/First Page Sections/work-section.css" rel="stylesheet" type="text/css">
+  <link href="CSS-Files + Fonts/First Page Sections/goal-section.css" rel="stylesheet" type="text/css">
+  <link href="CSS-Files + Fonts/First Page Sections/contact.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <script src="https://kit.fontawesome.com/c45049b980.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  
+  </script>
 </head>
 
 
@@ -19,67 +30,132 @@
 
   <!-- Nav Button (3 Lines) -->
   <div class="nav-button">
-    <img src="menu-icon.jpg" alt="menu-button" class="menu">
+    <img src="Images/menu-icon.jpg" alt="menu-button" class="menu">
   </div>
   
   <!-- Nav Bar (On the left side) -->
     <div class="nav-bar" id="bar">
-      <a href="#home" style="margin-top:75px"><i class="fa fa-fw fa-home"></i> Home </a>
-      <a href="#services"><i class="fa fa-fw fa-wrench"></i> About Me </a>
-      <a href="#clients"><i class="fa fa-fw fa-user"> </i> Projects </a>
-      <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Goals </a>
-    </div>
+      <a href="index.html" style="margin-top:75px"><i class="fa fa-fw fa-home"></i> Home </a>
+      <a href="about-me.html"><i class="fa fa-fw fa-user"></i> About Me </a>
+      <a href="projects.html"><i class="fa-solid fa-envelope"> </i> Projects </a>
+      <a href="work-experience.html"><i class="fa fa-fw fa-wrench"></i> Work Experience </a>
+    <a href="goals.html"><i class="fa fa-fw fa-award"></i> Goals </a>
+  </div>
   
   <!-- About Me -->
-  <div class="about">
-    <div class="content hider"> About Me </div>
-    <div class="content">
-    <img src="professional-headshot.jpg" class="about-img"> 
-    <p> B </p>
+  <div class="about-section">
+    <div class="about-hider"> <p class="about-text"> About Me </p> </div>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="Images/professional-headshot.jpg"   class="about-img">  
+      </div>
+      <div class="about-txt">
+        <p class="about-desc"> Hi, My name is Tj Chapell. This is my personal portfolio website that I created in the Nextech Catapult program. I'm here to explain a little bit more about myself. I got into coding because as a kid I always had access to the internet and video game consoles. And as all kids, I had that urge to develop a video game and thats what I was set on doing every since my childhood... <br><br><br> **Click the button for more** </p>
+      </div>
+      <div>
+        <a href="about-me.html"><button class="about-button"> Go To Section </button></a>
+      </div>
     </div>
   </div>
 
+  <!-- Projects -->
+<div class="project-section">
+    <div class="project-hider"> <p class="project-text"> Projects </p> </div>
+    <div class="project-content">
+      <div class="project-image">
+        <img src="Images/Code.org.png"   class="project-img">
+        <img src="Images/Eclipse_logo.png" style="margin-top: 25px" class="project-img">
+      </div>
+      <div class="project-txt">
+        <p class="project-desc"> During my High school years I have done a fair bit of coding in and out of school. I have done personal projects that I wanted to do myself and projects from my multiple CS courses during school time. I've also done a fair bit of popcode assignments here at the catapult program. These projects are mainly coded using Javascript, HTML, CSS, Java, and GML (Gamemaker Language). In this section I'll seperate some of my projects by what IDE they were made in... <br><br><br> **Click the button for more** </p>
+      </div>
+      <div>
+        <a href="projects.html"><button class="project-button"> Go To Section </button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Experiece -->
+  <div class="work-section">
+    <div class="work-hider"> <p class="work-text"> Work Experience </p> </div>
+    <div class="work-content">
+      <div class="work-image">
+        <img src="Images/cts-logo.jpg" class="work-img">
+        <img src="Images/nextech-logo.png" class="work-img img-2">
+      </div>
+      <div class="work-txt">
+        <p class="work-desc"> I got my first job at the Christmas Tree Shops in greenwood around the end of september of 2021. I have been working this job for almost 9 months now as of July and hace learned a lot from this job. My role in this job is customer experience sales, this is basicaly what is called a "floor worker". As a floor worker we do tasks such as stocking, cleaning, organzing, helping customers and even time to time hop on the registers to try and get the line down. This job has taught me valuable soft skills such as communication, working with a team and perserverance... <br><br> **Click the button for more** </p>
+      </div>
+      <div>
+        <a href="work-experience.html"><button class="work-button"> Go To Section </button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- GOALS -->
+  <div class="goal-section">
+    <div class="goal-hider"> <p class="goal-text"> Goals </p> </div>
+    <div class="goal-content">
+      <div class="goal-image">
+        <img src="Images/purdue-logo.png" class="goal-img fix">
+      </div>
+      <div class="goal-txt">
+        <p class="goal-desc"> Some of these goals may be stretching the boundaries of whats possible. But I feel like you need something extremely challenging to be the ultimate motivating factor, that way you do the small goals to work up to that seemingly impossible goal. In this section I'll also explain a basic plan on how I can achieve these goals that I've set for myself. Most of these goals are career based but there are a few ones I set for personal reasons... <br><br> **Click the button for more** </p>
+      </div>
+      <div>
+        <a href="goals.html"><button class="goal-button"> Go To Section </button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact-section">
+    <p class="section-header-con"> Let's Chat! </p>
+    <p class="profile-header"> My Profiles </p>
+    <div class="profiles flex">
+      <a href="https://www.linkedin.com/in/timothy-chapell-b7b643244/">
+      <img class="profile-img linkedin" src="Images/linkedin-logo.png">
+      </a>
+      <a href="https://github.com/Pieguyrobot">
+        <img class="profile-img github" src="Images/github-logo.png">
+      </a>
+      <a>
+      <img class="profile-img instagram" src="Images/Instagram-logo.png">
+      </a>
+      <img class="profile-img" src="">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   <!-- Footer -->
   <div>
     <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    <p> Footer </p>
-    
   </div>
 
-  <!-- Script -->
+  <!-- Script For Header and Menu-->
   <script src="header.js"></script>
-  <script src="Navigation Resources/nav-menu.js"></script>
+  <script src="CSS-Files + Fonts/Navigation Resources/nav-menu.js"></script>
+
+  <!-- Scripts for Blur Removers -->
+  <script src="Blur-Removers/about-remover.js"></script>
+  <script src="Blur-Removers/project-remover.js"></script>
+  <script src="Blur-Removers/work-remover.js"></script>
+  <script src="Blur-Removers/goal-remover.js"></script>
 
   
 

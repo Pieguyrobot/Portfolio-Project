@@ -1,0 +1,132 @@
+body {
+  background-color: #670000;
+}
+
+.text {
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* JOB 1 */
+.CTS {
+  position: absolute;
+  top: 100px;
+  background-color: #670000;
+}
+
+.cts-header {
+  font-family: gentaxregular;
+  font-size: 40px;
+  margin-lefT: 35px;
+}
+
+.cts-text {
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: 25px;
+  margin-left: 45px;
+  margin-top: 45px;
+  margin-right: 45px;
+}
+
+.cts-logo {
+  height: 275px;
+  margin: 50px;
+  margin-top: 20px;
+}
+
+
+/* JOB 2 */
+.nextech {
+  position: absolute;
+  top: 450px;
+  background-color: #480000;
+  padding-bottom: 30px;
+}
+
+.nextech-header {
+  font-family: gentaxregular;
+  font-size: 40px;
+  margin-left: 35px;
+}
+
+.nextech-text {
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: 25px;
+  margin-left: 45px;
+  margin-top: 25px;
+  margin-right: 45px;
+}
+
+.nextech-logo {
+  height: 125px;
+  margin: 50px;
+  margin-top: 50px;
+}
+
+
+/* SKILLS SECTION */
+.skills {
+  position: absolute;
+  top: 955px;
+  background-color: #370000;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.skills-header {
+  font-family: gentaxregular;
+  font-size: 40px;
+  margin-left: 35px;
+}
+
+.fix {
+  margin-left: -1200px;
+}
+
+
+/* CONTINUE SECTION */
+.next-section {
+  position: absolute;
+  top: 1350px;
+  background-color: #190000;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.section-header-2 {
+  font-family: gentaxregular;
+  margin-left: 50px;
+  position: relative;
+  top: 0px;
+  font-size: 40px;
+}
+
+.next {
+  color: ivory;
+  background-color: #190000;
+  white-space: nowrap;
+  margin-top: 110px;
+  font-size: 24px;
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 40px;
+  border: solid 2px white;
+  margin-right: 500px;
+}
+
+.next:hover {
+  color: black;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}

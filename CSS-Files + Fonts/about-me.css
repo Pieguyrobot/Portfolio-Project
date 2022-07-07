@@ -1,0 +1,135 @@
+body {
+  background-color: gray;
+}
+
+.flex {
+  bottom: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.img-1 {
+  width: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 180px;
+}
+
+.img-2 {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.img-3 {
+  width: 175px;
+  height: 175px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.img-4 {
+  height: 160px;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 70px;
+}
+
+.section-header {
+  font-family: gentaxregular;
+  margin-left: 50px;
+  bottom: 100px;
+  position: relative;
+  font-size: 50px;
+}
+
+.para-1 {
+  width: 100%;
+  bottom: 75px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: absolute;
+  top: 100px;
+  font-size: 22px;
+  background-color: #670000;
+}
+
+.text-1 {
+  font-family: "Questrial", sans-serif;
+  position: relative;
+  margin-left: 80px;
+}
+
+
+.para-2 {
+  width: 100%;
+  bottom: 75px;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  position: absolute;
+  top: 551px;
+  font-size: 22px;
+  background-color: #530000
+}
+
+.text-2 {
+  font-family: "Questrial", sans-serif;
+  position: relative;
+  margin-left: 80px;
+}
+
+.para-3 {
+  padding-top: 150px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 1050px;
+  font-size: 22px;
+  background-color: #480000
+}
+
+.text-3 {
+  font-family: "Questrial", sans-serif;
+  position: relative;
+  margin-left: 80px;
+}
+
+.next-section {
+  position: absolute;
+  top: 1475px;
+  background-color: #190000;
+  width: 100%;
+}
+
+.section-header-2 {
+  font-family: gentaxregular;
+  margin-left: 50px;
+  position: relative;
+  top: 0px;
+  font-size: 40px;
+}
+
+.next {
+  color: ivory;
+  background-color: #190000;
+  white-space: nowrap;
+  margin-top: 160px;
+  font-size: 24px;
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 40px;
+  border: solid 2px white;
+  margin-right: 500px;
+}
+
+.next:hover {
+  color: black;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}

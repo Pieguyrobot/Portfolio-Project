@@ -9,10 +9,13 @@ window.onscroll = function() {scrollFunction()};
       document.getElementById("text").style.marginTop = "0px";
 
       document.getElementById("header").style.backgroundSize = "2200px 100px";
+
+      document.getElementById("header").style.height = "100px";
     
       } else {
+      document.getElementById("header").style.height = "100vh";
      document.getElementById("text").style.fontSize 
-     = "110px";
+     = "8.6vw";
       
     document.getElementById("text").style.paddingTop    = "30vh";
 

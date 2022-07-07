@@ -1,0 +1,66 @@
+body {
+  color: white;
+  background-color: #670000;
+  margin: 0px;
+}
+
+@font-face {
+    font-family: "gentaxregular";
+    src: url("Fonts/gentax-webfont.woff2") format("woff2");
+    src: url("Fonts/gentax-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER */
+#header {
+  z-index: 2;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  background-image: url(https://cdn.discordapp.com/attachments/505348015712763904/989514862742867988/Untitled141_20210925195457.png);
+  background-repeat: no-repeat;
+  background-size: 2200px 100px;
+  height: 100px;
+  transition: 0.2s;
+}
+
+#text {
+  margin-top: 0px;
+  padding-top: 34px;
+  display: flex;
+  justify-content: center;
+  transition: 0.2s;
+  font-size: 40px;
+  font-family: gentaxregular;
+}
+
+/* TEXT ANIMATION */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #007000 0%,
+    #009900 29%,
+    #00ff00 67%,
+    #008000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
