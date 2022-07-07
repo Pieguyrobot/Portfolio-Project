@@ -3,9 +3,14 @@
   justify-content: space-evenly;
 }
 
+.flex-1 {
+  display: flex;
+  justify-content: left;
+}
+
 .contact-section {
   padding-top: 425px;
-  padding-bottom: 325px;
+  padding-bottom: 55px;
   background-color: #190000;
   margin-bottom: 0px;
 }
@@ -66,5 +71,92 @@
 .instagram:hover {
   background-color:  #8a3ab9;
   transition: 0.2s;
+  cursor: pointer;
+}
+
+.youtube {
+  background-color:  #494949;
+  height: 75px;
+  padding: 10px;
+  border: solid 3px #cccccc;
+  border-radius: 20px;
+}
+
+.youtube:hover {
+  background-color:  #cc0000;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.twitter {
+  background-color:  #494949;
+  height: 75px;
+  padding: 10px;
+  border: solid 3px #cccccc;
+  border-radius: 20px;
+}
+
+.twitter:hover {
+  background-color:  #1DA1F2;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.inputs {
+  padding-top:  30px;
+  background-color: #190000;
+  padding: 25px;
+  font-family: "Questrial", sans-serif;
+  text-decoration: none;
+}
+
+.message {
+  padding: 12px 20px;
+  margin: 10px;
+  margin-left: -10px;
+  box-sizing: border-box;
+  width: 626px;
+}
+
+.input-e {
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+.input-f {
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.input-l {
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.contact-button {
+  color: ivory;
+  background-color: #190000;
+  white-space: nowrap;
+  margin-right: 120px;
+  font-size: 24px;
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 40px;
+  border: solid 2px white
+}
+
+.contact-button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.4s;
   cursor: pointer;
 }

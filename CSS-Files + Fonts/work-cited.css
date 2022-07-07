@@ -1,0 +1,16 @@
+.cited {
+  position: absolute;
+  top: 125px;
+}
+
+.cited-header {
+  font-family: gentaxregular;
+  font-size: 40px;
+  margin-left: 75px;
+}
+
+.text {
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+}
