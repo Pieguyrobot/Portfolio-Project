@@ -74,6 +74,7 @@
   margin-right: 15px;
   margin-top: 140px;
   padding: 10px;
+  border: solid 0px black;
 }
 
 .code-logo:hover {
@@ -171,6 +172,7 @@
   z-index: 3;
   margin-right: 65px;
   margin-top: 140px;
+  border: solid 0px black;
 }
 
 .popcode-logo:hover {
@@ -214,6 +216,7 @@
   padding-top: 25px;
   padding-right: 516px;
   padding-left: 517px;
+  padding-bottom: 30px;
 }
   
 .project-4 {
