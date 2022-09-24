@@ -2,6 +2,7 @@ body {
   color: white;
   background-color: gray;
   margin: 0px;
+  zoom: 125%;
 }
 
 @font-face {
@@ -26,12 +27,12 @@ body {
 }
 
 #text {
-  margin-top: 100px;
+  margin-top: 45px;
   padding-top: 30vh;
   display: flex;
   justify-content: center;
   transition: 0.2s;
-  font-size: 8.6vw;
+  font-size: 7.0vw;
   font-family: gentaxregular;
 }
 

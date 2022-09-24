@@ -1,3 +1,7 @@
+body {
+  zoom: 125%;
+}
+
 .cited {
   position: absolute;
   top: 125px;
