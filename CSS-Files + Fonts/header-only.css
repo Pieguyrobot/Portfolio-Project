@@ -19,7 +19,7 @@ body {
   margin-top: 0px;
   position: fixed;
   width: 100%;
-  background-image: url("back.png");
+  background-image: url(back.png);
   background-repeat: no-repeat;
   background-size: 2200px 100px;
   height: 100px;
